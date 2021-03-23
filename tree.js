@@ -66,6 +66,8 @@ class Tree{
     tree.add('No 7', 'No 3');
     tree.add('No 8', 'No 4');
 
+    console.log(tree.findBTS('No 1'));
+    console.log(tree.findBTS('No 2'));
     console.log(tree.findBTS('No 3'));
 
     // tree.traverseBFS((node) => {console.log(node)})
